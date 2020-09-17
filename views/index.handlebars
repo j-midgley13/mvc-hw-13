@@ -1,20 +1,49 @@
-<header>
-    <h1>Burger Imagination!</h1>
-    <br>
-    <img src="../public/assets/img/cheeseburger.png" alt="cheeseburger">    
-</header>
-
 <div class="container">
-    <div id="not-eaten">
-    {{#each burger_data }}
-        {{#unless this.devoured}}
-        <div class="list-item">
-        <span class="burger-id">{{this.id}}</span>
-        <span class="burger-name-text">{{this.burger_name}}</span>
-        <button type="button" class="devour">Eat It!</button>
+    <header>
+        <h1>Burger Imagination!</h1>
         <br>
+        <img src="../assets/img/cheeseburger4.png" alt="cheeseburger">    
+        <br>
+    </header>
+
+    
+
+    <div class="row">
+        <div class="col-md-6">
+            <div id="not-consumed" >
+            <h3>Let's Eat!</h3>
+                {{#each burger_data }}
+                    {{#unless this.devoured}}
+                        <div class="list-item">
+                        <span class="burger-id">{{this.id}}</span>
+                        <span class="burger-name-text">{{this.burger_name}}</span>
+                        <button type="button" class="devour">Consume!</button>
+                        <br>
+                        </div>
+                    {{/unless}}
+                {{/each}}
+            </div>
         </div>
-        {{/unless}}
-    {{/each}}
+
+        <div class="col-md-6">
+            <div id="consumed">
+            <h3>Consumed!</h3>
+                {{#each burger_data }}
+                    {{#if this.devoured}}
+                        <div class="list-item">
+                        <span class="burger-id">{{this.id}}</span>
+                        <span class="burger-name-text">{{this.burger_name}}</span>
+                        <br>
+                        </div>
+                    {{/if}}
+                {{/each}}
+            </div>
+        </div>
     </div>
+    
+    
+
+    
 </div>
+
+

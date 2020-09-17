@@ -1,8 +1,14 @@
 body {
-    background-color: #A2EBD6;
+    background-color: #E3B774;
 }
 
 header {
+    padding-top: 5%;
     text-align: center;
 
 };
+
+img {
+    height: 10px;
+    width: 10px;
+}
