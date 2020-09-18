@@ -6,16 +6,25 @@
         <br>
     </header>
 
-    
+    <div class="row d-flex justify-content-center enterBurger">
+        <div class="col-md-10 BurgerForm d-flex justify-content-center text-center borderController">
+            <form class="newBurgerForm">
+                <h4>Enter in your inspiration for a new burger!</h4>
+                <input type="text" class="form control" name="burger-type" id="create-burger">
+                <button type="submit" class="btn btn-lg" id="submit-btn">Add Your Burger!</button>
+            </form>
+        </div>
+    </div>
 
-    <div class="row">
-        <div class="col-md-6">
-            <div id="not-consumed" >
-            <h3>Let's Eat!</h3>
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-7 d-flex justify-content-center borderController notConsumedBox">
+            <div id="notConsumed" >
+            <h4>Let's Eat!</h4>
                 {{#each burger_data }}
                     {{#unless this.devoured}}
                         <div class="list-item">
                         <span class="burger-id">{{this.id}}</span>
+                        <span>:</span>
                         <span class="burger-name-text">{{this.burger_name}}</span>
                         <button type="button" class="devour">Consume!</button>
                         <br>
@@ -25,9 +34,9 @@
             </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-5 d-flex justify-content-center borderController consumedBox">
             <div id="consumed">
-            <h3>Consumed!</h3>
+            <h4>Consumed!</h4>
                 {{#each burger_data }}
                     {{#if this.devoured}}
                         <div class="list-item">
@@ -39,11 +48,7 @@
                 {{/each}}
             </div>
         </div>
-    </div>
-    
-    
-
-    
+    </div>   
 </div>
 
 

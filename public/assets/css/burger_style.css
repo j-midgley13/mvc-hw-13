@@ -12,3 +12,41 @@ img {
     height: 10px;
     width: 10px;
 }
+
+h1, h4 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.borderController {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.newBurgerForm {
+    margin: 10px 0px;
+}
+
+.enterBurger {
+    margin: 20px 0px;
+}
+
+.notConsumedBox {
+    margin-top: 10px;
+}
+
+.consumedBox {
+    margin-top: 10px;
+}
+
+#notConsumed {
+    padding: 5px;
+}
+
+#consumed {
+    padding: 5px;
+}
+
+span {
+    font-family: 'Indie Flower', cursive;
+}
