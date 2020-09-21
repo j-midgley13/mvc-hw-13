@@ -63,11 +63,14 @@ const orm = {
         queryString += " WHERE ";
         queryString += condition;
 
-        console.log(queryString, function(err, result){
-            if (err) throw err;
+        console.log(queryString);
+        
+        connection.query(queryString, function(err, result){
+            if (err) {
+              throw err;}
 
             cb(result);
-        })
+        });
     }
     
 };

@@ -1,26 +1,26 @@
 body {
-    background-color: #E3B774;
+    background-color: #E6C47A;
+    color: #38332E;
 }
 
 header {
     padding-top: 5%;
     text-align: center;
 
-};
-
-img {
-    height: 10px;
-    width: 10px;
 }
+
+#submit-btn {
+    background-color: #3795AD;
+}
+
 
 h1, h4 {
     font-family: 'Permanent Marker', cursive;
 }
 
 .borderController {
-    border-color: black;
-    border-style: solid;
-    border-width: 3px;
+    background-color: #FBEDD0;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .newBurgerForm {
@@ -49,4 +49,8 @@ h1, h4 {
 
 span {
     font-family: 'Indie Flower', cursive;
+}
+
+.list-item {
+    margin-bottom: 5px;
 }
