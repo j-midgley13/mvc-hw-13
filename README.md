@@ -15,7 +15,10 @@ This assignment was given to create a burger logger using MySQL, Node, Express, 
 ## Objectives  
 
 ```md
-Burger Imagination! is an app that lets users input a name of any burger they can conjure. When the user submits the burger, it is logged in the "Let's Eat" box. After they have eaten it, it then moves over to the "Consumed!" box so they know which burgers have and have not been eaten. The burgers are created, saved, and updated in MySQL.
+Burger Imagination! is an app that lets users input a name of any burger they can conjure.  
+When the user submits the burger, it is logged in the "Let's Eat" box.  
+After they have eaten it, it then moves over to the "Consumed!" box so they know which burgers have and have not been eaten.  
+The burgers are created, saved, and updated in MySQL.  
 ```
 
 ## Process  
