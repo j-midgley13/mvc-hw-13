@@ -10,8 +10,7 @@ This assignment was given to create a burger logger using MySQL, Node, Express, 
 * [Challenges](#Challenges)
 * [Summary](#Summary)
 * [Sites](#Sites)
-* [Video](#Video)
-* [Gif](#Gif)
+* [Screenshot](#Screenshot)
 
 ## Objectives  
 
@@ -44,6 +43,6 @@ This assignment was a huge challenge for me. The complexity of an orm, setting u
 
 * [Link to deployed Heroku Website](https://shrouded-peak-46803.herokuapp.com/) 
 
-## Gif  
+## Screenshot  
 
 ![screenshot](public/assets/img/burger-logger.png)  
